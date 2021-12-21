@@ -7,15 +7,12 @@ def get_version(full_version):
     return full_version[9:-9]
 
 
-installations_request = requests.get("https://api.gbif.org/v1/installation?limit=600")
+installations_request = requests.get("https://api.gbif.org/v1/installation?limit=1000&type=IPT_INSTALLATION")
 installations_data = installations_request.json()
 
-versions_usage = dict({'timeout': 0, 'response_code': 0, 'parse_error': 0})
+versions_usage = ({'timeout': 0, 'error_response_code': 0, 'parse_error': 0})
 
 for installation in installations_data['results']:
-    # Count only IPT installations
-    if installation['type'] != "IPT_INSTALLATION":
-        continue
 
     print("Trying {item}".format(item=installation['key']))
     endpoints = installation['endpoints']
@@ -27,15 +24,15 @@ for installation in installations_data['results']:
             endpoint_url = endpoint['url']
 
             try:
-                # Set timeout to 4 seconds
+                # Set timeout to 10 seconds
                 endpoint_data = requests.get(endpoint_url, timeout=4)
 
                 # Process only requests with code 200
                 if endpoint_data.status_code != 200:
-                    print("Response status code {url} is {code}, skipping this one"
+                    print("GET {url} is {code}, skipping this one"
                           .format(url=endpoint_url, code=endpoint_data.status_code))
-                    number_of_installed_with_wrong_code = versions_usage['response_code']
-                    versions_usage['response_code'] = number_of_installed_with_wrong_code + 1
+                    number_of_installed_with_wrong_code = versions_usage['error_response_code']
+                    versions_usage['error_response_code'] = number_of_installed_with_wrong_code + 1
                     continue
 
                 content = endpoint_data.content
@@ -70,5 +67,10 @@ for installation in installations_data['results']:
         print("Skip installation '{title}' with the key '{key}', no endpoints provided"
               .format(title=installation['title'], key=installation['key']))
 
+sorted_versions_usage = sorted(versions_usage.items(), key=lambda kv: kv[0], reverse=True)
 
-print(versions_usage)
+print("----------------")
+print("Result:")
+
+for item in sorted_versions_usage:
+    print("'{i1}': {i2}".format(i1=item[0], i2=item[1]))
