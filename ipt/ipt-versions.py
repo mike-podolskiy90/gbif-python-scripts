@@ -6,7 +6,11 @@ import xml.etree.ElementTree as ET
 def get_version(full_version):
     # may contain SNAPSHOT or r${buildNumber}
     # build number length varies
-    return full_version[9:len(full_version) - (len(full_version) - full_version.rfind('-'))]
+    version_split_array = full_version.split('-', 3)
+    ipt_version_with_text = version_split_array[0]
+    prefix = 'GBIF IPT '
+
+    return ipt_version_with_text[len(prefix):]
 
 
 def check_installations_datasets(installation_key):
