@@ -34,7 +34,7 @@ versions_usage = ({'no_endpoints': 0, 'timeout': 0, 'error_response_code': 0, 'p
 for installation in installations_data['results']:
     print("-------------------------------------------")
     print("Trying {item}".format(item=installation['key']))
-    print("https://gbif.org/installation/{installationKey}".format(installationKey=installation['key']))
+    print("https://registry.gbif.org/installation/{installationKey}".format(installationKey=installation['key']))
     endpoints = installation['endpoints']
     print("Number of endpoints: {quantity}".format(quantity=len(endpoints)))
 
