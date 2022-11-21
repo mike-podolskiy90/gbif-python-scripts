@@ -47,14 +47,13 @@ for installation in installations_data['results']:
             try:
                 # Set timeout to 4 seconds
                 endpoint_data = requests.get(endpoint_url, timeout=4)
+                check_installations_datasets(installation['key'])
 
                 # Process only requests with code 200
                 if endpoint_data.status_code != 200:
-                    print("GET {url} is {code}, analyzing..."
+                    print("GET {url} is {code}"
                           .format(url=endpoint_url, code=endpoint_data.status_code))
                     versions_usage['error_response_code'] = versions_usage['error_response_code'] + 1
-
-                    check_installations_datasets(installation['key'])
 
                     continue
 
