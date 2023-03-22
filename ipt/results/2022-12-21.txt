@@ -1,8 +1,16 @@
+/usr/local/bin/python3.8 /Users/rvl320/PythonProjects/gbif-python-scripts/ipt/ipt-versions.py
 -------------------------------------------
-Trying a4e67846-34e6-4336-aec2-1723feadcbba
-https://registry.gbif.org/installation/a4e67846-34e6-4336-aec2-1723feadcbba
+Trying 6a53ff78-5369-4cd4-93f9-c47714a9e1a0
+https://registry.gbif.org/installation/6a53ff78-5369-4cd4-93f9-c47714a9e1a0
 Number of endpoints: 1
 https://ipt.biota.org.br/rss.do
+Number of datasets: 1
+2.6.3
+-------------------------------------------
+Trying e6fc90b9-c84e-4e11-b235-aa8ffd1e0832
+https://registry.gbif.org/installation/e6fc90b9-c84e-4e11-b235-aa8ffd1e0832
+Number of endpoints: 1
+https://slovakia.ipt.gbif.no/rss.do
 Number of datasets: 1
 2.6.3
 -------------------------------------------
@@ -32,7 +40,7 @@ https://registry.gbif.org/installation/ea16a808-0f5d-4800-b79c-95aff7357755
 Number of endpoints: 1
 https://tajik.ipt.gbif.no/rss.do
 Number of datasets: 4
-2.6.2
+Parse error
 -------------------------------------------
 Trying d083f5eb-83f7-479d-b090-d82892cad4c0
 https://registry.gbif.org/installation/d083f5eb-83f7-479d-b090-d82892cad4c0
@@ -46,23 +54,23 @@ Trying c058c720-8640-434c-8d94-d10d4c340534
 https://registry.gbif.org/installation/c058c720-8640-434c-8d94-d10d4c340534
 Number of endpoints: 1
 https://armenia.ipt.gbif.no/rss.do
-Number of datasets: 1
-2.6.2
+Exception occurred (timeout probably), analyzing...
+Number of datasets: 3
 -------------------------------------------
 Trying bdd86825-bcb9-49c6-bf82-bfaa49bd8ca5
 https://registry.gbif.org/installation/bdd86825-bcb9-49c6-bf82-bfaa49bd8ca5
 Number of endpoints: 1
 https://ipt.danbif.dk/rss.do
+Exception occurred (timeout probably), analyzing...
 Number of datasets: 0
 There are no datasets associated with the installation!
-2.5.8
 -------------------------------------------
 Trying d0e2b9a9-8496-4959-8cba-a7fea22537eb
 https://registry.gbif.org/installation/d0e2b9a9-8496-4959-8cba-a7fea22537eb
 Number of endpoints: 1
 https://ukraine.ipt.gbif.no/rss.do
-Number of datasets: 159
-2.6.2
+Number of datasets: 187
+2.6.3
 -------------------------------------------
 Trying d32dfe5b-ca63-4db8-a607-fadfcf44561e
 https://registry.gbif.org/installation/d32dfe5b-ca63-4db8-a607-fadfcf44561e
@@ -123,8 +131,7 @@ Trying 78aee337-e49b-4121-b081-8f764b01ac3f
 https://registry.gbif.org/installation/78aee337-e49b-4121-b081-8f764b01ac3f
 Number of endpoints: 1
 https://biocase.zfmk.de/ipt/rss.do
-Number of datasets: 0
-There are no datasets associated with the installation!
+Number of datasets: 1
 2.5.7
 -------------------------------------------
 Trying 6d11e032-a994-4d27-ab67-705ec7618ca3
@@ -167,14 +174,14 @@ Trying eaecc2e7-e7c6-4f96-867e-0e68582b47fa
 https://registry.gbif.org/installation/eaecc2e7-e7c6-4f96-867e-0e68582b47fa
 Number of endpoints: 1
 http://196.27.109.38:8080/rss.do
-Number of datasets: 4
+Number of datasets: 5
 2.5.7
 -------------------------------------------
 Trying 4ce0e33d-ff23-4a00-9f6c-09b231eb0118
 https://registry.gbif.org/installation/4ce0e33d-ff23-4a00-9f6c-09b231eb0118
 Number of endpoints: 1
 https://data.canadensys.net/micropublications/rss.do
-Number of datasets: 4
+Number of datasets: 6
 2.5.8
 -------------------------------------------
 Trying b1112d59-be91-470e-a2aa-8ab9d3bbd207
@@ -241,7 +248,7 @@ Trying da87027f-12b5-442f-b132-0f6f25acfd53
 https://registry.gbif.org/installation/da87027f-12b5-442f-b132-0f6f25acfd53
 Number of endpoints: 1
 https://gbif.ocean.ru/ipt/rss.do
-Number of datasets: 5
+Number of datasets: 7
 2.4.2
 -------------------------------------------
 Trying d85ed8b5-8c3e-4ee8-a42f-341b341990f0
@@ -249,7 +256,7 @@ https://registry.gbif.org/installation/d85ed8b5-8c3e-4ee8-a42f-341b341990f0
 Number of endpoints: 1
 https://ipt.data.bas.ac.uk/rss.do
 Number of datasets: 1
-2.6.2
+2.6.3
 -------------------------------------------
 Trying cd43223e-c253-4e98-a36e-e48b988656a1
 https://registry.gbif.org/installation/cd43223e-c253-4e98-a36e-e48b988656a1
@@ -269,17 +276,17 @@ Trying 7092f0d0-91a2-4734-8dc7-3e688df82d04
 https://registry.gbif.org/installation/7092f0d0-91a2-4734-8dc7-3e688df82d04
 Number of endpoints: 1
 https://cloud.gbif.org/africa/rss.do
-Number of datasets: 14
+Number of datasets: 17
 2.6.3
 -------------------------------------------
 Trying beeeddea-c02a-43d5-aec7-b534daca34d6
 https://registry.gbif.org/installation/beeeddea-c02a-43d5-aec7-b534daca34d6
 Number of endpoints: 2
 https://ipt.env.duke.edu/rss.do
-Number of datasets: 1116
+Number of datasets: 1117
 2.6.2
 http://ipt.env.duke.edu/rss.do
-Number of datasets: 1116
+Number of datasets: 1117
 2.6.2
 -------------------------------------------
 Trying 19df86b3-c3a0-4582-977e-4c7bfd53925c
@@ -303,7 +310,7 @@ Number of endpoints: 1
 http://ipt.iobis.org/hab/rss.do
 Number of datasets: 0
 There are no datasets associated with the installation!
-2.6.2
+2.6.3
 -------------------------------------------
 Trying 712ce2e3-1409-45c1-9bd4-904991c8aa19
 https://registry.gbif.org/installation/712ce2e3-1409-45c1-9bd4-904991c8aa19
@@ -361,8 +368,8 @@ Trying 0ea9e953-d63c-49fb-9026-463133905424
 https://registry.gbif.org/installation/0ea9e953-d63c-49fb-9026-463133905424
 Number of endpoints: 1
 http://80.94.160.207:8080/ipt/rss.do
+Exception occurred (timeout probably), analyzing...
 Number of datasets: 7
-2.4.0
 -------------------------------------------
 Trying b89d5241-5be8-4cf9-9b1e-deedb9f28924
 https://registry.gbif.org/installation/b89d5241-5be8-4cf9-9b1e-deedb9f28924
@@ -398,7 +405,7 @@ Trying 17a83780-3060-4851-9d6f-029d5fcb81c9
 https://registry.gbif.org/installation/17a83780-3060-4851-9d6f-029d5fcb81c9
 Number of endpoints: 1
 https://cloud.gbif.org/eca/rss.do
-Number of datasets: 12
+Number of datasets: 18
 2.6.3
 -------------------------------------------
 Trying 38beda4e-aeff-4fad-91ed-5bd3a21314ed
@@ -412,14 +419,14 @@ Trying 8fbf2f0e-b061-447d-8718-8197170924ac
 https://registry.gbif.org/installation/8fbf2f0e-b061-447d-8718-8197170924ac
 Number of endpoints: 1
 http://bim-mirror.aseanbiodiversity.org:8080/ipt/rss.do
+Exception occurred (timeout probably), analyzing...
 Number of datasets: 26
-2.5.8
 -------------------------------------------
 Trying 16450fb9-c46c-473b-b28c-f07c5ad7a3f6
 https://registry.gbif.org/installation/16450fb9-c46c-473b-b28c-f07c5ad7a3f6
 Number of endpoints: 1
 http://altb.asu.ru/ipt/rss.do
-Number of datasets: 12
+Number of datasets: 13
 2.4.0
 -------------------------------------------
 Trying 17ec0484-7ea7-49cf-94c4-c9bbbe22ab91
@@ -485,14 +492,14 @@ Trying 00d874b4-e0fa-4e9c-8f25-22c9b7c6a617
 https://registry.gbif.org/installation/00d874b4-e0fa-4e9c-8f25-22c9b7c6a617
 Number of endpoints: 1
 https://www.lemursportal.org/ipt/rss.do
-Exception occurred (timeout probably), analyzing...
 Number of datasets: 4
+2.3.6
 -------------------------------------------
 Trying 9ed662d1-3aca-476a-b261-4b07a2ec29d7
 https://registry.gbif.org/installation/9ed662d1-3aca-476a-b261-4b07a2ec29d7
 Number of endpoints: 1
 https://cloud.gbif.org/lac/rss.do
-Number of datasets: 25
+Number of datasets: 26
 2.6.3
 -------------------------------------------
 Trying 5f0fbf72-35e4-4dcd-8d78-f060cb22e817
@@ -514,7 +521,7 @@ Trying 7be06443-2b11-4d91-bdd6-0d3263f04815
 https://registry.gbif.org/installation/7be06443-2b11-4d91-bdd6-0d3263f04815
 Number of endpoints: 1
 http://www.csbg.nsc.ru:8080/ipt/rss.do
-Number of datasets: 40
+Number of datasets: 41
 2.3.6
 -------------------------------------------
 Trying a4b376c8-6c35-4bd2-88a8-02fa3ef8b32f
@@ -550,9 +557,9 @@ Trying 0d3e9027-73a1-49cb-8e0e-59286ef60400
 https://registry.gbif.org/installation/0d3e9027-73a1-49cb-8e0e-59286ef60400
 Number of endpoints: 1
 https://www.lemursportal.org/ipt/rss.do
-Exception occurred (timeout probably), analyzing...
 Number of datasets: 0
 There are no datasets associated with the installation!
+2.3.6
 -------------------------------------------
 Trying da058683-45e9-4895-bedf-03fa0b115a45
 https://registry.gbif.org/installation/da058683-45e9-4895-bedf-03fa0b115a45
@@ -566,7 +573,7 @@ https://registry.gbif.org/installation/bd4746e4-c1e1-4a68-8546-10a853c64853
 Number of endpoints: 1
 http://ipt.iobis.org/mbon/rss.do
 Number of datasets: 15
-2.6.2
+2.6.3
 -------------------------------------------
 Trying 7e9670e7-b45c-4f66-9300-fa8f98c9c79d
 https://registry.gbif.org/installation/7e9670e7-b45c-4f66-9300-fa8f98c9c79d
@@ -666,14 +673,14 @@ https://registry.gbif.org/installation/fc3a51f5-338e-45eb-9192-44a36a7f3373
 Number of endpoints: 1
 http://ipt.iobis.org/esp-obis/rss.do
 Number of datasets: 13
-2.6.2
+2.6.3
 -------------------------------------------
 Trying c5d2bdee-b245-48a7-9789-9b90e9327c95
 https://registry.gbif.org/installation/c5d2bdee-b245-48a7-9789-9b90e9327c95
 Number of endpoints: 1
 http://ipt.iobis.org/obis-malaysia/rss.do
 Number of datasets: 3
-2.6.2
+2.6.3
 -------------------------------------------
 Trying 1928564c-218c-4d81-9a75-a3641e54579f
 https://registry.gbif.org/installation/1928564c-218c-4d81-9a75-a3641e54579f
@@ -711,7 +718,7 @@ https://registry.gbif.org/installation/82d6992a-b20b-4e74-b6ac-6b971b2c485d
 Number of endpoints: 1
 http://science-net.kahaku.go.jp/ipt2/rss.do
 Number of datasets: 474
-Parse error
+2.5.8
 -------------------------------------------
 Trying 3d54a439-3262-47e0-9fa7-cd1a19ada395
 https://registry.gbif.org/installation/3d54a439-3262-47e0-9fa7-cd1a19ada395
@@ -726,13 +733,13 @@ Number of endpoints: 1
 http://ipt.vliz.be/bodc/rss.do
 Number of datasets: 0
 There are no datasets associated with the installation!
-2.6.2
+2.6.3
 -------------------------------------------
 Trying 5ae8b93d-03d9-48f1-8334-f1f251d13f1f
 https://registry.gbif.org/installation/5ae8b93d-03d9-48f1-8334-f1f251d13f1f
 Number of endpoints: 1
 http://ipt.vtatlasoflife.org/rss.do
-Number of datasets: 71
+Number of datasets: 72
 2.5.4
 -------------------------------------------
 Trying b309a334-f367-4918-b228-d187f66b2ed0
@@ -783,7 +790,7 @@ Trying f66ca88d-1f6a-49dc-b33b-32960faee57e
 https://registry.gbif.org/installation/f66ca88d-1f6a-49dc-b33b-32960faee57e
 Number of endpoints: 1
 https://cloud.gbif.org/asia/rss.do
-Number of datasets: 78
+Number of datasets: 81
 2.6.3
 -------------------------------------------
 Trying 60085a92-6bba-4b2c-aa21-3e3b5d736da1
@@ -834,7 +841,7 @@ Trying 9a0789af-e49d-41c2-8f8a-ca77da95d820
 https://registry.gbif.org/installation/9a0789af-e49d-41c2-8f8a-ca77da95d820
 Number of endpoints: 1
 http://ipt-nigeria.gbif.fr/rss.do
-Number of datasets: 90
+Number of datasets: 100
 2.5.8
 -------------------------------------------
 Trying e0f2d99d-f183-469a-adb1-f321a3c4609f
@@ -892,8 +899,8 @@ Trying d1b0ac70-3b77-4c2c-9071-daf65bb9fa79
 https://registry.gbif.org/installation/d1b0ac70-3b77-4c2c-9071-daf65bb9fa79
 Number of endpoints: 1
 http://www.edms.sua.ac.tz/ipt/rss.do
-Exception occurred (timeout probably), analyzing...
 Number of datasets: 11
+GET http://www.edms.sua.ac.tz/ipt/rss.do is 404
 -------------------------------------------
 Trying 0abc982f-8633-4007-93cf-bd58fe389309
 https://registry.gbif.org/installation/0abc982f-8633-4007-93cf-bd58fe389309
@@ -913,8 +920,8 @@ Trying 6985c822-bca9-4819-a653-52ebb2f99678
 https://registry.gbif.org/installation/6985c822-bca9-4819-a653-52ebb2f99678
 Number of endpoints: 1
 http://www.monitoringdata.ub.bw/ipt/rss.do
+Exception occurred (timeout probably), analyzing...
 Number of datasets: 7
-2.3.5
 -------------------------------------------
 Trying 604785c7-cb56-47a9-bfcd-09700e27589e
 https://registry.gbif.org/installation/604785c7-cb56-47a9-bfcd-09700e27589e
@@ -947,7 +954,7 @@ Number of datasets: 15
 Trying 17017c2c-036b-45d9-b045-606d21b00771
 https://registry.gbif.org/installation/17017c2c-036b-45d9-b045-606d21b00771
 Number of endpoints: 1
-http://sweetgum.nybg.org:8080/ipt/rss.do
+https://sweetgum.nybg.org:8443/ipt/rss.do
 Number of datasets: 1
 2.3.5
 -------------------------------------------
@@ -970,27 +977,27 @@ https://registry.gbif.org/installation/e63134cb-f4eb-4f09-85c6-bdbb2f56e722
 Number of endpoints: 1
 http://ipt.iobis.org/obis-deepsea/rss.do
 Number of datasets: 27
-2.6.2
+2.6.3
 -------------------------------------------
 Trying 91d2f516-bdfa-458f-bad1-66717101b49f
 https://registry.gbif.org/installation/91d2f516-bdfa-458f-bad1-66717101b49f
 Number of endpoints: 1
 https://depo.msu.ru/ipt/rss.do
-Number of datasets: 43
+Number of datasets: 44
 2.3.4
 -------------------------------------------
 Trying 6b459ded-20ca-46f2-8323-5f4eed4b9fde
 https://registry.gbif.org/installation/6b459ded-20ca-46f2-8323-5f4eed4b9fde
 Number of endpoints: 1
 https://ipt.sprep.org/rss.do
-Number of datasets: 96
+Number of datasets: 97
 2.5.4
 -------------------------------------------
 Trying 9df8109c-684d-416b-819b-7bc09adc500b
 https://registry.gbif.org/installation/9df8109c-684d-416b-819b-7bc09adc500b
 Number of endpoints: 1
 http://patrimonio.ambiente.gob.ec/iptmae/rss.do
-Number of datasets: 32
+Number of datasets: 35
 2.3.5
 -------------------------------------------
 Trying 9437759e-806c-4520-b75c-914b03a9e86c
@@ -1019,8 +1026,8 @@ Trying 07ea29ef-e386-4278-ae0f-095778a1b061
 https://registry.gbif.org/installation/07ea29ef-e386-4278-ae0f-095778a1b061
 Number of endpoints: 1
 http://ipt-inpn.gbif.fr/rss.do
-Number of datasets: 11065
-2.5.8
+Exception occurred (timeout probably), analyzing...
+Number of datasets: 1
 -------------------------------------------
 Trying dec10313-acd6-44c5-80b5-7983e4fc9b49
 https://registry.gbif.org/installation/dec10313-acd6-44c5-80b5-7983e4fc9b49
@@ -1073,13 +1080,13 @@ Number of endpoints: 1
 http://ipt.iobis.org/wsaobis/rss.do
 Number of datasets: 0
 There are no datasets associated with the installation!
-2.6.2
+2.6.3
 -------------------------------------------
 Trying 10edeef2-130a-4e6e-824e-7bddfe72dcee
 https://registry.gbif.org/installation/10edeef2-130a-4e6e-824e-7bddfe72dcee
 Number of endpoints: 1
 http://ipt-cotedivoire.gbif.fr/rss.do
-Number of datasets: 16
+Number of datasets: 17
 2.5.8
 -------------------------------------------
 Trying c4195389-aa85-42ab-a264-bf5e3b3c2966
@@ -1101,7 +1108,7 @@ Trying faeb021c-ab9f-4c80-9587-3749a8f6fb23
 https://registry.gbif.org/installation/faeb021c-ab9f-4c80-9587-3749a8f6fb23
 Number of endpoints: 1
 http://gbif-chile.mma.gob.cl/ipt/rss.do
-Number of datasets: 81
+Number of datasets: 90
 2.5.5
 -------------------------------------------
 Trying 40dee7df-00ee-4965-bcaf-5291dbab4b08
@@ -1129,8 +1136,8 @@ Number of datasets: 1
 Trying 834a30a5-9170-415c-8411-ea85db9157fb
 https://registry.gbif.org/installation/834a30a5-9170-415c-8411-ea85db9157fb
 Number of endpoints: 1
-http://ipt.gbif.pl:8080/rss.do
-Number of datasets: 101
+https://ipt.gbif.pl/rss.do
+Number of datasets: 208
 2.3.4
 -------------------------------------------
 Trying 06364965-baad-475c-966c-ac5f963bb69c
@@ -1206,7 +1213,7 @@ https://registry.gbif.org/installation/b68add0c-c5b6-451a-818c-203a0253bac9
 Number of endpoints: 1
 http://ipt.iobis.org/caribbeanobis/rss.do
 Number of datasets: 104
-2.6.2
+2.6.3
 -------------------------------------------
 Trying 33f40aac-2870-454e-b8f4-9958e761d826
 https://registry.gbif.org/installation/33f40aac-2870-454e-b8f4-9958e761d826
@@ -1227,7 +1234,7 @@ https://registry.gbif.org/installation/f9df6cff-21d4-4d4b-8da4-eda454f5a086
 Number of endpoints: 1
 https://ipt.vliz.be/eurobis/rss.do
 Number of datasets: 300
-2.6.2
+2.6.3
 -------------------------------------------
 Trying e081c7d7-2dab-42fd-94c4-9f275767fe7d
 https://registry.gbif.org/installation/e081c7d7-2dab-42fd-94c4-9f275767fe7d
@@ -1263,7 +1270,7 @@ Trying 73ebc470-17bd-4130-a880-1be5cfb16e4d
 https://registry.gbif.org/installation/73ebc470-17bd-4130-a880-1be5cfb16e4d
 Number of endpoints: 1
 http://ipt.biodiversidad.co/sibm/rss.do
-Number of datasets: 152
+Number of datasets: 153
 2.5.4
 -------------------------------------------
 Trying 9551423a-1d89-497a-9a79-b2b0f288bac9
@@ -1321,7 +1328,7 @@ Trying 5fd2d57a-44b5-4e3f-a2ee-d2b7074a89fc
 https://registry.gbif.org/installation/5fd2d57a-44b5-4e3f-a2ee-d2b7074a89fc
 Number of endpoints: 1
 https://ipt.biodiversidad.co/parquesnacionales/rss.do
-Number of datasets: 105
+Number of datasets: 106
 2.5.4
 -------------------------------------------
 Trying a3ae1cfc-ba82-4511-8a68-807d9cb78db6
@@ -1386,8 +1393,8 @@ Trying ebf848ed-0abf-4a83-8688-3cff877a03ad
 https://registry.gbif.org/installation/ebf848ed-0abf-4a83-8688-3cff877a03ad
 Number of endpoints: 1
 http://aduipt.uct.ac.za:8080/ipt-2.3.2/rss.do
+Exception occurred (timeout probably), analyzing...
 Number of datasets: 5
-2.3.2
 -------------------------------------------
 Trying 21c0f0d1-6791-42db-af8e-556dcabca9b1
 https://registry.gbif.org/installation/21c0f0d1-6791-42db-af8e-556dcabca9b1
@@ -1415,7 +1422,7 @@ Trying b75cac4b-10fd-424f-a4f7-7bae2657bf64
 https://registry.gbif.org/installation/b75cac4b-10fd-424f-a4f7-7bae2657bf64
 Number of endpoints: 1
 http://ipt.museums.or.ke/ipt/rss.do
-Number of datasets: 90
+Number of datasets: 91
 2.4.2
 -------------------------------------------
 Trying 6adeff08-3d1e-4977-8524-24d3f58ab403
@@ -1423,7 +1430,7 @@ https://registry.gbif.org/installation/6adeff08-3d1e-4977-8524-24d3f58ab403
 Number of endpoints: 1
 http://ipt.saiab.ac.za/rss.do
 Number of datasets: 4
-2.5.8
+2.6.1
 -------------------------------------------
 Trying fa552163-ec60-49ff-8e49-6da48335058e
 https://registry.gbif.org/installation/fa552163-ec60-49ff-8e49-6da48335058e
@@ -1453,7 +1460,7 @@ https://registry.gbif.org/installation/b494d108-871b-4dfa-bffe-c7949c7400e4
 Number of endpoints: 1
 https://geo.abds.is/ipt/rss.do
 Number of datasets: 70
-2.5.5
+2.6.3
 -------------------------------------------
 Trying c6c9f784-8af9-4631-9912-dde88e38fafb
 https://registry.gbif.org/installation/c6c9f784-8af9-4631-9912-dde88e38fafb
@@ -1488,15 +1495,8 @@ Trying 5ff1c992-5c84-40aa-bd9a-c1743a870c32
 https://registry.gbif.org/installation/5ff1c992-5c84-40aa-bd9a-c1743a870c32
 Number of endpoints: 1
 http://ipt.iobis.org/obiscanada/rss.do
-Number of datasets: 62
-2.6.2
--------------------------------------------
-Trying 5f02b486-8869-418b-88ba-1819001f1da7
-https://registry.gbif.org/installation/5f02b486-8869-418b-88ba-1819001f1da7
-Number of endpoints: 1
-https://plutof.ut.ee/ipt/rss.do
-Number of datasets: 38
-Parse error
+Number of datasets: 63
+2.6.3
 -------------------------------------------
 Trying e42db8b1-d5c5-46fa-ab1e-b81b0fc1e464
 https://registry.gbif.org/installation/e42db8b1-d5c5-46fa-ab1e-b81b0fc1e464
@@ -1539,7 +1539,7 @@ Trying 7743c35d-adbd-4ca6-a185-193a7a8d2684
 https://registry.gbif.org/installation/7743c35d-adbd-4ca6-a185-193a7a8d2684
 Number of endpoints: 1
 http://gbif.ru:8080/ipt/rss.do
-Number of datasets: 170
+Number of datasets: 171
 2.5.5
 -------------------------------------------
 Trying 9b51fa83-7d7e-4ccc-acc4-1879f9d8dd6d
@@ -1553,7 +1553,7 @@ Trying 2bbcc64b-16bb-4f74-8dfc-64c93cf0e109
 https://registry.gbif.org/installation/2bbcc64b-16bb-4f74-8dfc-64c93cf0e109
 Number of endpoints: 1
 http://arobis.cenpat-conicet.gob.ar:8081/rss.do
-Number of datasets: 21
+Number of datasets: 22
 2.5.7
 -------------------------------------------
 Trying 7b1a0765-a289-49df-8091-52861d4d2746
@@ -1602,7 +1602,7 @@ Trying e312f477-a9ba-485e-8c1c-700868a0bfb7
 https://registry.gbif.org/installation/e312f477-a9ba-485e-8c1c-700868a0bfb7
 Number of endpoints: 1
 https://ipt.nina.no/rss.do
-Number of datasets: 64
+Number of datasets: 71
 2.5.7
 -------------------------------------------
 Trying f54ed5ce-9755-46c8-b6e7-67bc3a46ed5b
@@ -1610,7 +1610,7 @@ https://registry.gbif.org/installation/f54ed5ce-9755-46c8-b6e7-67bc3a46ed5b
 Number of endpoints: 1
 https://gbif.vm.ntnu.no/ipt/rss.do
 Number of datasets: 22
-2.5.7
+2.6.1
 -------------------------------------------
 Trying c540b059-6829-4505-a490-5c3f06e4bb0e
 https://registry.gbif.org/installation/c540b059-6829-4505-a490-5c3f06e4bb0e
@@ -1624,7 +1624,7 @@ https://registry.gbif.org/installation/3bfa1051-c335-47f4-b531-19055919e1bc
 Number of endpoints: 1
 http://flora-on.pt:8080/ipt/rss.do
 Number of datasets: 1
-2.3.4
+GET http://flora-on.pt:8080/ipt/rss.do is 500
 -------------------------------------------
 Trying 842b6a28-624a-4ddc-a96e-04d0ce819fce
 https://registry.gbif.org/installation/842b6a28-624a-4ddc-a96e-04d0ce819fce
@@ -1638,14 +1638,14 @@ https://registry.gbif.org/installation/b38ff2b7-c8af-454e-b5af-ee760f0d5bca
 Number of endpoints: 1
 http://ipt1.cria.org.br/ipt/rss.do
 Number of datasets: 191
-2.4.2
+2.6.3
 -------------------------------------------
 Trying b6bbcb00-d6a6-4c2b-a4a2-c70dbed7f188
 https://registry.gbif.org/installation/b6bbcb00-d6a6-4c2b-a4a2-c70dbed7f188
 Number of endpoints: 1
 http://ipt.zin.ru:8080/ipt/rss.do
+Exception occurred (timeout probably), analyzing...
 Number of datasets: 14
-2.3.4
 -------------------------------------------
 Trying 4c5fccfd-c052-42ec-97ab-a4657ec27751
 https://registry.gbif.org/installation/4c5fccfd-c052-42ec-97ab-a4657ec27751
@@ -1672,7 +1672,7 @@ Trying 1cbabffe-9073-4007-ba1e-40ebcda6e302
 https://registry.gbif.org/installation/1cbabffe-9073-4007-ba1e-40ebcda6e302
 Number of endpoints: 1
 https://data.aad.gov.au/ipt/rss.do
-Number of datasets: 103
+Number of datasets: 104
 2.5.4
 -------------------------------------------
 Trying 3f28c5e9-59b3-4c98-baa8-46002fbf0a7c
@@ -1746,8 +1746,8 @@ Trying 0644bec7-ca97-4ee1-8e80-50bc05ef1197
 https://registry.gbif.org/installation/0644bec7-ca97-4ee1-8e80-50bc05ef1197
 Number of endpoints: 1
 https://www.verspreidingsatlas.nl:8443/ipt/rss.do
+Exception occurred (timeout probably), analyzing...
 Number of datasets: 1
-2.6.3
 -------------------------------------------
 Trying 70d271a4-b6af-456e-8fc3-3ca479f6641f
 https://registry.gbif.org/installation/70d271a4-b6af-456e-8fc3-3ca479f6641f
@@ -1838,8 +1838,8 @@ Trying 749a6836-fa44-4a34-8e85-5ead119c60bf
 https://registry.gbif.org/installation/749a6836-fa44-4a34-8e85-5ead119c60bf
 Number of endpoints: 1
 http://ipt.nioz.nl/rss.do
+Exception occurred (timeout probably), analyzing...
 Number of datasets: 11
-2.6.2
 -------------------------------------------
 Trying d65a70d9-2e28-4a1a-9aee-b5b4c8e9a27e
 https://registry.gbif.org/installation/d65a70d9-2e28-4a1a-9aee-b5b4c8e9a27e
@@ -1860,7 +1860,7 @@ Trying 06d75b22-fc7a-42ff-a14f-65a25cd0f3ab
 https://registry.gbif.org/installation/06d75b22-fc7a-42ff-a14f-65a25cd0f3ab
 Number of endpoints: 1
 http://ipt.gbif.pt/ipt/rss.do
-Number of datasets: 253
+Number of datasets: 265
 2.5.6
 -------------------------------------------
 Trying b77901f9-d9b0-47fa-94e0-dd96450aa2b4
@@ -1935,14 +1935,6 @@ Number of datasets: 0
 There are no datasets associated with the installation!
 GET http://ipt.sibcolombia.net/rnoa/rss.do is 404
 -------------------------------------------
-Trying 47583fdb-e306-4e3c-8696-1ed6121cecb6
-https://registry.gbif.org/installation/47583fdb-e306-4e3c-8696-1ed6121cecb6
-Number of endpoints: 1
-http://ipt.biodiversidad.co/rnjb/rss.do
-Number of datasets: 0
-There are no datasets associated with the installation!
-Parse error
--------------------------------------------
 Trying 96dec937-f8d1-4d18-a8a1-1e9f4ca1aabd
 https://registry.gbif.org/installation/96dec937-f8d1-4d18-a8a1-1e9f4ca1aabd
 Number of endpoints: 1
@@ -1954,7 +1946,7 @@ Trying 9afa1395-6e93-4848-a42d-bce896f5195e
 https://registry.gbif.org/installation/9afa1395-6e93-4848-a42d-bce896f5195e
 Number of endpoints: 1
 https://kbif.naris.go.kr/ipt/rss.do
-Number of datasets: 228
+Number of datasets: 232
 2.3.6
 -------------------------------------------
 Trying da7fe11a-b42c-46cb-9e9d-02243edb738a
@@ -1983,22 +1975,14 @@ Trying 2a3f6a56-7591-4f05-8c4c-a1bb77aa4ea6
 https://registry.gbif.org/installation/2a3f6a56-7591-4f05-8c4c-a1bb77aa4ea6
 Number of endpoints: 1
 https://ipt.gbif.es/rss.do
-Number of datasets: 379
+Number of datasets: 382
 2.6.3
--------------------------------------------
-Trying 8002191a-8dc5-4fbc-98c3-b820a39f4390
-https://registry.gbif.org/installation/8002191a-8dc5-4fbc-98c3-b820a39f4390
-Number of endpoints: 1
-http://ipt.biodiversidad.co/resnatur/rss.do
-Number of datasets: 0
-There are no datasets associated with the installation!
-Parse error
 -------------------------------------------
 Trying 2ec3e654-1407-4d5b-aa68-19e9c82b57a6
 https://registry.gbif.org/installation/2ec3e654-1407-4d5b-aa68-19e9c82b57a6
 Number of endpoints: 1
 http://ipt.biodiversidad.co/iiap/rss.do
-Number of datasets: 258
+Number of datasets: 268
 2.5.4
 -------------------------------------------
 Trying 8120860c-d51c-4f5f-b865-3c8e39eb6915
@@ -2041,7 +2025,7 @@ Trying 6aca019f-ee9d-4088-859b-5a601d4b093f
 https://registry.gbif.org/installation/6aca019f-ee9d-4088-859b-5a601d4b093f
 Number of endpoints: 1
 https://danbif.au.dk/ipt/rss.do
-Number of datasets: 91
+Number of datasets: 92
 2.6.3
 -------------------------------------------
 Trying b31222aa-9cf5-4f40-8fe4-527f78c5c566
@@ -2051,14 +2035,6 @@ http://www.cgn.ipt.wur.nl:8080/ipt/rss.do
 Exception occurred (timeout probably), analyzing...
 Number of datasets: 0
 There are no datasets associated with the installation!
--------------------------------------------
-Trying e3b3b47d-94d5-4f70-a1aa-c03de37b0c5f
-https://registry.gbif.org/installation/e3b3b47d-94d5-4f70-a1aa-c03de37b0c5f
-Number of endpoints: 1
-http://ipt.biodiversidad.co/valle/rss.do
-Number of datasets: 0
-There are no datasets associated with the installation!
-Parse error
 -------------------------------------------
 Trying 30cdb869-126c-44df-b1f2-6e06ea98e889
 https://registry.gbif.org/installation/30cdb869-126c-44df-b1f2-6e06ea98e889
@@ -2071,22 +2047,22 @@ Trying 68845aab-a453-4816-b36d-a3ec8455deb0
 https://registry.gbif.org/installation/68845aab-a453-4816-b36d-a3ec8455deb0
 Number of endpoints: 1
 https://ipt.biodiversidad.co/sib/rss.do
-Number of datasets: 1225
+Number of datasets: 1272
 2.5.4
 -------------------------------------------
 Trying c4e83f8a-f24c-4573-a197-f085ca242917
 https://registry.gbif.org/installation/c4e83f8a-f24c-4573-a197-f085ca242917
 Number of endpoints: 1
 https://ipt.gbif.no/rss.do
-Number of datasets: 249
-2.6.2
+Number of datasets: 272
+2.6.3
 -------------------------------------------
 Trying 37bbc993-59f6-46f5-b22e-dd0b1c480779
 https://registry.gbif.org/installation/37bbc993-59f6-46f5-b22e-dd0b1c480779
 Number of endpoints: 1
 https://nas.er.usgs.gov/ipt/rss.do
 Number of datasets: 1
-2.5.6
+2.6.3
 -------------------------------------------
 Trying cc5c9fb8-fff1-4b54-9373-545425e18b99
 https://registry.gbif.org/installation/cc5c9fb8-fff1-4b54-9373-545425e18b99
@@ -2106,7 +2082,7 @@ Trying 9f25fd85-85dc-4dcd-a1b4-b31165442e2b
 https://registry.gbif.org/installation/9f25fd85-85dc-4dcd-a1b4-b31165442e2b
 Number of endpoints: 1
 https://data.inbo.be/ipt/rss.do
-Number of datasets: 113
+Number of datasets: 117
 2.5.8
 -------------------------------------------
 Trying d4b44de6-e9db-493c-bbbb-5ef06395544a
@@ -2148,7 +2124,7 @@ Trying 97dfec69-b198-43ba-a8fa-c5edbc04e324
 https://registry.gbif.org/installation/97dfec69-b198-43ba-a8fa-c5edbc04e324
 Number of endpoints: 1
 http://ipt.nlbif.nl/rss.do
-Number of datasets: 117
+Number of datasets: 118
 2.6.2
 -------------------------------------------
 Trying 53180e27-5ad9-49fa-be17-1e910092f308
@@ -2163,7 +2139,7 @@ Trying c2f1d0d3-c5dc-4995-835d-d04e4ec46d6e
 https://registry.gbif.org/installation/c2f1d0d3-c5dc-4995-835d-d04e4ec46d6e
 Number of endpoints: 1
 https://ipt.biodiversity.be/rss.do
-Number of datasets: 89
+Number of datasets: 91
 2.6.2
 -------------------------------------------
 Trying 56dbb965-6bb0-4a50-aa1b-cab1f3856c21
@@ -2199,7 +2175,7 @@ Trying 4fd221cd-129c-404f-ab62-fdd2377d12ac
 https://registry.gbif.org/installation/4fd221cd-129c-404f-ab62-fdd2377d12ac
 Number of endpoints: 1
 http://ipt.mincyt.gob.ar/rss.do
-Number of datasets: 202
+Number of datasets: 203
 2.5.7
 -------------------------------------------
 Trying e8924583-68d9-4716-a9d2-4d0681c8ab21
@@ -2279,7 +2255,7 @@ Trying 08eefeeb-e20f-4482-8e0f-f218547e2f50
 https://registry.gbif.org/installation/08eefeeb-e20f-4482-8e0f-f218547e2f50
 Number of endpoints: 1
 https://ipt.taibif.tw/rss.do
-Number of datasets: 91
+Number of datasets: 93
 2.5.2
 -------------------------------------------
 Trying 47149b31-0645-43dd-b4db-bc652d9329c2
@@ -2321,7 +2297,7 @@ Trying a957a663-2f17-415f-b1c8-5cf6398df8ed
 https://registry.gbif.org/installation/a957a663-2f17-415f-b1c8-5cf6398df8ed
 Number of endpoints: 1
 http://ipt.vertnet.org:8080/ipt/rss.do
-Number of datasets: 284
+Number of datasets: 285
 2.5.5
 -------------------------------------------
 Trying 369b9874-5bd5-45dd-9db8-c29d6c3b5a72
@@ -2356,28 +2332,28 @@ Trying d371dfc3-ef14-48b5-97f8-1de9d3f9f874
 https://registry.gbif.org/installation/d371dfc3-ef14-48b5-97f8-1de9d3f9f874
 Number of endpoints: 1
 http://ipt.pensoft.net/rss.do
-Number of datasets: 118
+Number of datasets: 120
 2.5.1
 -------------------------------------------
 Result:
-'timeout': 80
-'parse_error': 8
+'timeout': 87
+'parse_error': 4
 'no_endpoints': 1
-'error_response_code': 21
-'2.6.3': 19
-'2.6.2': 26
-'2.6.1': 2
-'2.5.8': 44
-'2.5.7': 20
-'2.5.6': 9
-'2.5.5': 19
+'error_response_code': 23
+'2.6.3': 35
+'2.6.2': 10
+'2.6.1': 4
+'2.5.8': 41
+'2.5.7': 19
+'2.5.6': 8
+'2.5.5': 18
 '2.5.4': 14
 '2.5.2': 1
 '2.5.1': 3
-'2.4.2': 5
-'2.4.0': 10
-'2.3.6': 8
-'2.3.5': 15
-'2.3.4': 16
-'2.3.2': 3
+'2.4.2': 4
+'2.4.0': 9
+'2.3.6': 10
+'2.3.5': 14
+'2.3.4': 14
+'2.3.2': 2
 '2.1.1': 1
