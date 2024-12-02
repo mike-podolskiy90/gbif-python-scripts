@@ -11,18 +11,18 @@ for offset in range(0, 400, 20):
 
     for ipt_installation in ipt_installations_data['results']:
         print("-------------------------------------------")
-        print("Checking IPT installation {instKey}".format(instKey=ipt_installation['key']))
+        print("Checking IPT installation {instKey} (https://registry.gbif.org/installation/{instKey})".format(instKey=ipt_installation['key']))
         organization_request = requests.get("https://api.gbif.org/v1/organization/{orgKey}"
                                                           .format(orgKey=ipt_installation['organizationKey']))
         organization = organization_request.json()
 
         org_total = org_total + 1
 
-        print("Organization {orgKey}".format(orgKey=organization['key']))
+        print("Organization {orgKey} (https://registry.gbif.org/organization/{orgKey})".format(orgKey=organization['key']))
         print("Organization {orgName}".format(orgName=organization['title']))
 
         if 'longitude' in organization and 'latitude' in organization:
-            org_with_coordinates = org_without_coordinates + 1
+            org_with_coordinates = org_with_coordinates + 1
             print("coordinates: latitude [{lat}], longitude [{long}]"
                   .format(lat=organization['latitude'], long=organization['longitude']))
         else:
